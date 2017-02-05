@@ -13,7 +13,7 @@ h4 {
 
 p {
   font-size: 16px;
-  padding: 1px;
+  padding: 2px;
   line-height: 1em;
 }
 
@@ -64,50 +64,41 @@ nav h4 {
 }
 
 .box {
-  overflow: hidden;
-  width: 100%;
-  box-sizing: border-box;
   margin: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.boxA {
-  float: left;
-  width: 70%;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.left {
-  float: left;
-  background-color: #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  width: 40%;
-}
-
-.right {
-  float: left;
-  background-color: #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  width: 60%;
-}
-
-.sidemenu {
+.box1 {
   float: left;
   background-color: #ccc;
   border-radius: 5px;
   width: 30%;
+}
+
+.box2 {
+  float: left;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 38%;
+}
+
+.box3 {
+  float: right;
+  background-color: #ccc;
+  border-radius: 5px;
+  width: 30%;
   overflow: hidden;
-  box-sizing: border-box;
 }
 
 .box1 ul {
   list-style: none;
+  margin: 10px;
 }
 
 .box3 ul {
   list-style: none;
+  margin: 10px;
 }
 
 footer {
